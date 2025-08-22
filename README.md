@@ -127,6 +127,8 @@ A: 可能是因为令牌权限不足或服务器问题。确认你的令牌有�
 
 ### Q: 如何获取新的令牌？
 A: 登录 Anoma 测试网站，从浏览器开发者工具的网络请求中获取授权令牌。
+<img width="2009" height="895" alt="image" src="https://github.com/user-attachments/assets/6fc89eb5-ec95-48d5-825d-a4cab97bd3fa" />
+
 
 ## 注意事项
 
