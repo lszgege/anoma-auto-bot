@@ -28,7 +28,7 @@ def get_unused_coupons(token):
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
     }
     
     try:
@@ -71,7 +71,7 @@ def use_coupons(token, coupon_ids, delay=3):
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
     }
     
     total = len(coupon_ids)
@@ -150,7 +150,7 @@ def claim_fitcoin(token, times=1, delay=1):
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
     }
     
     payload = {}
@@ -258,7 +258,7 @@ def buy_garapon(token, amount=1):
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
     }
     
     payload = {"amount": amount}
@@ -336,7 +336,7 @@ def auto_process(token, claim_times=10, delay=1):
 
 if __name__ == "__main__":
     # 从用户提供的Headers中提取token
-    token = "SFMyNTY.g2gDdAAAAAVtAAAAA2V4cGJoqUHGbQAAAANpYXRiaKfwRm0AAAADaXNzbQAAAA1hbm9tYV9iYWNrZW5kbQAAAAR0eXBlbQAAAAhtZXRhbWFza20AAAAHdXNlcl9pZmYzOGNibgYAs5EC0JgBYgABUYA.SJKYn7gx4LdZ1iL-O806WXmi40sjU1g2qsvuKE9bZrk"
+    token = "SFMyNTY.g2gDdAAAAAVtAAAAA2V4cGJoqUHGbQAAAANpYXRiaKfwRm0AAAADaXNzbQAAAAA1hbm9tYV9iYWNasdasdrZW5kbQAAAAR0eXBlbQAAAAhtZXRhbWFza20AAAAHdXNlcl9pZmYzOGNibgYAs5EC0JgBYgABUYA.SJKYn7gx4LdZ1iL-O806WXmi40sjU1g2qsvuKE9bZrk"
     
     print("Anoma工具箱")
     print("1. 使用现有抽奖券")
